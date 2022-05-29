@@ -38,7 +38,7 @@ $ heroku open
 For more information about using Java on Heroku, see these Dev Center articles:
 
 - [Java on Heroku](https://devcenter.heroku.com/categories/java)
-# Grade-Calculator
+# Grade Calculator
 - Displays a **percentage** for each activity
 - The user can see **weighted**/**mean** grade
 
