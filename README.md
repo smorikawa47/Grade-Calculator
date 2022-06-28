@@ -40,6 +40,7 @@ For more information about using Java on Heroku, see these Dev Center articles:
 - [Java on Heroku](https://devcenter.heroku.com/categories/java)
 # Grade Calculator
 Displays a **percentage** for each activity
+
 The user can see **weighted**/**mean** grade
 
 https://user-images.githubusercontent.com/80607636/170855671-ade51111-261a-42e4-ac5f-2e7280f857b1.mp4
