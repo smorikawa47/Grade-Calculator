@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <div class = "Outer-black-lines">
+        <div class = "White-box">
+            <h1>Grade Calculator</h1>
+            <div class = "Blue-box">
+                <h2 class = "Red">Activities</h2>
+                <p class = "Para">Give grades to the numeric activities:</p>
+                <table id = "Main_table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Short Name</th>
+                        <th>Weight</th>
+                        <th>Grade</th>
+                        <th>Percent</th>
+                    </tr>
+
+                    <tr>
+                        <td>Avtivity 1</td>
+                        <td>A1</td>
+                        <td><input type="text" id="weight_a1"></td>
+                        <td><input type="text" id="numerator_a1" onkeyup = "percent(1)"> /<br><input type="text" id="denominator_a1" onkeyup = "percent(1)"></td>
+                        <td id="Percentage_a1"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Avtivity 2</td>
+                        <td>A2</td>
+                        <td><input type="text" id="weight_a2"></td>
+                        <td><input type="text" id="numerator_a2" onkeyup = "percent(2)"> /<br><input type="text" id="denominator_a2" onkeyup = "percent(2)"></td>
+                        <td id="Percentage_a2"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Avtivity 3</td>
+                        <td>A3</td>
+                        <td><input type="text" id="weight_a3"></td>
+                        <td><input type="text" id="numerator_a3" onkeyup = "percent(3)"> /<br><input type="text" id="denominator_a3" onkeyup = "percent(3)"></td>
+                        <td id="Percentage_a3"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Avtivity 4</td>
+                        <td>A4</td>
+                        <td><input type="text" id="weight_a4"></td>
+                        <td><input type="text" id="numerator_a4" onkeyup = "percent(4)"> /<br><input type="text" id="denominator_a4" onkeyup = "percent(4)"></td>
+                        <td id="Percentage_a4"></td>
+                    </tr>
+                </table>
+                <h3 class = "Red">Results</h3>
+                <h4 id="result"></h4>
+                <div class = "buttons"><button type="button" id = "w_button" class = "W_button">WEIGHTED</button><div class="divider"></div><button type="button" id = "m_button" class = "M_button">MEAN</button></div>
+            </div> <!-- Blue box -->
+        </div> <!-- White-box -->
+    </div> <!-- Outer-black-lines -->
+</body>
+<script type="text/javascript" src="calculator.js"></script>
+</html>

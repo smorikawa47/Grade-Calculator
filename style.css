@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-color: #a71828;
+}
+
+table, th, td {
+    border: 1px solid #bebfbf;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+th {
+    background-color: #dfdddd;
+    text-align: left;
+    padding-left: 6px;
+    font-size: 0.9em;
+}
+
+td {
+    height: 69px;
+    padding-left: 6px;
+    width: 138.5px;
+    font-size: 0.9em;
+}
+
+/*Grade Calculator*/
+h1 {
+    margin: 0;
+    font-family: Arial;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    font-size: 1.8em;
+}
+
+/*Activities*/
+h2 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Give grades to the numeric activities*/
+.Para {
+    margin-left: 10px;
+    margin-bottom: 23px;
+    font-size: 0.9em;
+}
+
+/*Results*/
+h3 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#result {
+    margin: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.Red {
+    color: #b82b26;
+}
+
+.Outer-black-lines {
+    margin: auto;
+    width: 87%;
+    height: 80%;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    border: 3px solid #3f3b38;
+    background-color: #3f3b38;
+    box-shadow: 0px 0px 30px -1px rgba(2, 2, 2, 0.59);
+}
+
+.White-box {
+    margin-left: -0.2%;
+    margin-right: -0.2%;
+    height: 80%;
+    border: 3px solid white;
+    padding: 10px;
+    background-color: white;
+}
+
+.Blue-box {
+    width: 61.2%;
+    height: 70%;
+    padding-top: 20px;
+    border: 1px solid #dae6ea;
+    border-radius: 3px;
+    background-color: #ebf0f3;
+    padding-bottom: 60px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 3px;
+    width: 50%;
+    height: 38%;
+    border: 1px solid #bebfbf;
+}
+
+.buttons {
+    float: right;
+}
+
+.W_button {
+    background-color: #b60f12;
+    border: 1px solid #eef7f8;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    width: 75px;
+    height: 30px;
+}
+
+.M_button {
+    margin: 16px;
+    background-color: #b60f12;
+    border: 1px solid #eef7f8;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    width: 75px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #772324;
+}
+
+.divider{
+    width: 3px;
+    height:auto;
+    display:inline-block;
+}
